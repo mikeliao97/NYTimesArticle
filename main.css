@@ -11,13 +11,39 @@ nav {
 }
 
 #inflation-infographic {
+    /* Border Top */
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: rgb(226, 226, 226);
+    
+    /* Border Bottom */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(226, 226, 226);
+
+
+
     margin: 0 auto;
-    width: 80%;
-    background-color: pink;
-    height: 1000px;
+    width: 85%;
+    /* background-color: pink; */
+    height: 800px;
     position: relative;
-    top: 40px;
+    top: 60px;
+}
+h2 {
+  margin-left: 35%
+}
+
+#infographic-container {
+  margin: 0 auto;
+  height: 680px;
+  width: 750px; 
+}
+
+.info {
+  height: 300px;
+  width: 22%;
+  background-color: purple;
+  margin: 10px;
+  float: left;
 }
