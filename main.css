@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  top 0;
+  left 0;
+  right 0;
+  background-color: orange;
+  width: 100%;
+  height: 60px;  
+  z-index: 100;
+  margin-top: -10px;
+}
+
+#inflation-infographic {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(226, 226, 226);
+    margin: 0 auto;
+    width: 80%;
+    background-color: pink;
+    height: 1000px;
+    position: relative;
+    top: 40px;
+}
